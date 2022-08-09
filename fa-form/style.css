@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('./Yekan-Font-master/Yekan.eot');
+    /* IE9 Compat Modes */
+    src: url('./Yekan-Font-master/Yekan.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('./Yekan-Font-master/Yekan.woff2') format('woff2'),
+        /* Modern Browsers */
+        url('./Yekan-Font-master/Yekan.woff') format('woff'),
+        /* Modern Browsers */
+        url('./Yekan-Font-master/Yekan.otf') format('opentype'),
+        /* Open Type Font */
+        url('./Yekan-Font-master/Yekan.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        text-rendering: optimizeLegibility;
+        font-display: auto;
+}
+body{
+    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+}
+label{
+    font-weight: 600;
+    font-family: "Yekan";
+    color: white;
+}
+input{
+    font-family: "yekan";
+}
+#a{
+    color: white;
+}
+#b0:hover{
+    transition: all 1s;
+    background-color: #6441a4;
+}
+#f0,#f1,#f2,#f3,#f4,#f5,#f6,#f7{
+    box-shadow:3px 3px 10px #6441a4;
+}
